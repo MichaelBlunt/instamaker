@@ -252,5 +252,5 @@ while True: #constantly loop the program
         'age': predictedAge,
     })
 
-    with open(('C:/Users/micha/Desktop/Programing/Selenium/Instagram_Accounts/' + firstName + lastName + '.json'), 'w') as outfile:
+    with open(('/tmp/mikel/' + firstName + lastName + '.json'), 'w') as outfile:
         json.dump(data, outfile)
