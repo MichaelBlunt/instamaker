@@ -11,7 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 while True: #constantly loop the program
 
     #launch chromewebdriver
-    browser = webdriver.Chrome()
+    browser = webdriver.Chrome('/usr/bin/chromedriver')
     browser.maximize_window()
     browser.delete_all_cookies()
 
